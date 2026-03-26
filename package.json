@@ -1,0 +1,12 @@
+{
+  "name": "usajobs-digest",
+  "version": "1.0.0",
+  "description": "Weekly federal jobs digest for Puerto Rico / remote entry-level positions",
+  "type": "module",
+  "scripts": {
+    "start": "node src/digest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
