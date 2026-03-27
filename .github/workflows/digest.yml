@@ -2,8 +2,8 @@ name: Weekly Jobs Digest
 
 on:
   schedule:
-    # Every Monday at 8:00 AM UTC (4:00 AM Puerto Rico time / AST)
-    - cron: "0 8 * * 1"
+    # Every Monday at 7:00 AM EST 
+    - cron: "0 12 * * *"
   workflow_dispatch: # allows manual trigger from GitHub UI
 
 jobs:
